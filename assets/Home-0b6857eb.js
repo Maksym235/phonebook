@@ -1,0 +1,1 @@
+import{j as e}from"./index-8b6ebeb4.js";function o(){return e.jsx("div",{style:{display:"flex",alignItems:"center",justifyContent:"center"},children:e.jsx("h1",{children:"Welcome to your phonebook"})})}export{o as default};
