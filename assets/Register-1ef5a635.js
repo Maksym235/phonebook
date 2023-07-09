@@ -1,4 +1,4 @@
-import{n as t,N as l,a as c,j as e,l as d}from"./index-4eeeb8c5.js";const x=t.form`
+import{n,N as c,u as d,j as e,s as x}from"./index-bd7a5fe7.js";const g=n.form`
   padding: 143px 0px;
   margin: 0px auto;
   display: flex;
@@ -7,7 +7,7 @@ import{n as t,N as l,a as c,j as e,l as d}from"./index-4eeeb8c5.js";const x=t.fo
   justify-content: center;
   align-items: center;
   gap: 20px;
-`,g=t.h1`
+`,m=n.h1`
   margin: 0;
   margin-bottom: 30px;
   font-weight: 600;
@@ -15,7 +15,7 @@ import{n as t,N as l,a as c,j as e,l as d}from"./index-4eeeb8c5.js";const x=t.fo
   line-height: 43px;
   letter-spacing: 0.01em;
   color: #1b1b1b;
-`,o=t.input`
+`,i=n.input`
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -32,7 +32,7 @@ import{n as t,N as l,a as c,j as e,l as d}from"./index-4eeeb8c5.js";const x=t.fo
     line-height: 26px;
     color: #eaeaea;
   }
-`,h=t.button`
+`,u=n.button`
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -47,13 +47,13 @@ import{n as t,N as l,a as c,j as e,l as d}from"./index-4eeeb8c5.js";const x=t.fo
   font-size: 17px;
   line-height: 26px;
   color: #ffffff;
-`,m=t.p`
+`,h=n.p`
   font-weight: 400;
   font-size: 17px;
   line-height: 26px;
   color: #1b1b1b;
   margin: 0;
-`,f=t(l)`
+`,f=n(c)`
   margin: 0;
   font-weight: 600;
   text-decoration: none;
@@ -62,11 +62,11 @@ import{n as t,N as l,a as c,j as e,l as d}from"./index-4eeeb8c5.js";const x=t.fo
   display: flex;
   align-items: flex-end;
   color: #000000;
-`;function u(){const r=c(),a=i=>{i.preventDefault();const n=i.currentTarget,s=n.elements.email.value,p=n.elements.password.value;r(d({email:s,password:p})),n.reset()};return e.jsxs(x,{onSubmit:a,children:[e.jsx(g,{children:"Log in"}),e.jsx(o,{label:"email",type:"email",name:"email",placeholder:"enter your email"}),e.jsx(o,{label:"password",type:"password",name:"password",placeholder:"enter your password"}),e.jsx(h,{type:"submit",children:"Log In"}),e.jsx(m,{children:"Don’t have an account?"}),e.jsx(f,{to:"/register",children:"Register"})]})}const b=t.div`
+`;function b(){const a=d(),r=o=>{o.preventDefault();const t=o.currentTarget,s=t.elements.name.value,l=t.elements.email.value,p=t.elements.password.value;a(x({name:s,email:l,password:p})),t.reset()};return e.jsxs(g,{onSubmit:r,children:[e.jsx(m,{children:"Sign Up"}),e.jsx(i,{label:"login",type:"text",name:"name",placeholder:"enter your login"}),e.jsx(i,{label:"email",type:"email",name:"email",placeholder:"enter your email"}),e.jsx(i,{label:"password",type:"password",name:"password",placeholder:"enter your password"}),e.jsx(u,{type:"submit",children:"Sign Up"}),e.jsx(h,{children:"Already have an account?"}),e.jsx(f,{to:"/login",children:"Log in"})]})}const w=n.div`
   width: 768px;
   margin-left: auto;
   margin-right: auto;
   background-image: url("/src/assets/FormBg.jpg");
   background-size: cover;
   border-radius: 50px;
-`;function j(){return e.jsx(b,{children:e.jsx(u,{})})}export{j as default};
+`;function y(){return e.jsx(w,{children:e.jsx(b,{})})}export{y as default};
