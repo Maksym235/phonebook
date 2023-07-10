@@ -1,4 +1,4 @@
-import{n as t,N as l,u as c,j as e,d}from"./index-bd7a5fe7.js";const x=t.form`
+import{n as t,N as l,b as c,j as e,l as d}from"./index-f15ed56c.js";const x=t.form`
   padding: 143px 0px;
   margin: 0px auto;
   display: flex;
@@ -53,7 +53,7 @@ import{n as t,N as l,u as c,j as e,d}from"./index-bd7a5fe7.js";const x=t.form`
   line-height: 26px;
   color: #1b1b1b;
   margin: 0;
-`,u=t(l)`
+`,f=t(l)`
   margin: 0;
   font-weight: 600;
   text-decoration: none;
@@ -62,11 +62,11 @@ import{n as t,N as l,u as c,j as e,d}from"./index-bd7a5fe7.js";const x=t.form`
   display: flex;
   align-items: flex-end;
   color: #000000;
-`;function f(){const r=c(),a=i=>{i.preventDefault();const n=i.currentTarget,s=n.elements.email.value,p=n.elements.password.value;r(d({email:s,password:p})),n.reset()};return e.jsxs(x,{onSubmit:a,children:[e.jsx(g,{children:"Log in"}),e.jsx(o,{label:"email",type:"email",name:"email",placeholder:"enter your email"}),e.jsx(o,{label:"password",type:"password",name:"password",placeholder:"enter your password"}),e.jsx(h,{type:"submit",children:"Log In"}),e.jsx(m,{children:"Don’t have an account?"}),e.jsx(u,{to:"/register",children:"Register"})]})}const b=t.div`
+`;function u(){const r=c(),a=i=>{i.preventDefault();const n=i.currentTarget,s=n.elements.email.value,p=n.elements.password.value;r(d({email:s,password:p})),n.reset()};return e.jsxs(x,{onSubmit:a,children:[e.jsx(g,{children:"Log in"}),e.jsx(o,{label:"email",type:"email",name:"email",placeholder:"enter your email"}),e.jsx(o,{label:"password",type:"password",name:"password",placeholder:"enter your password"}),e.jsx(h,{type:"submit",children:"Log In"}),e.jsx(m,{children:"Don’t have an account?"}),e.jsx(f,{to:"/register",children:"Register"})]})}const b=t.div`
   width: 768px;
   margin-left: auto;
   margin-right: auto;
   background-image: url("/src/assets/FormBg.jpg");
   background-size: cover;
   border-radius: 50px;
-`;function j(){return e.jsx(b,{children:e.jsx(f,{})})}export{j as default};
+`;function j(){return e.jsx(b,{children:e.jsx(u,{})})}export{j as default};

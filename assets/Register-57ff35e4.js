@@ -1,4 +1,4 @@
-import{n,N as c,u as d,j as e,s as x}from"./index-bd7a5fe7.js";const g=n.form`
+import{n,N as c,b as d,j as e,s as x}from"./index-f15ed56c.js";const g=n.form`
   padding: 143px 0px;
   margin: 0px auto;
   display: flex;
@@ -32,7 +32,7 @@ import{n,N as c,u as d,j as e,s as x}from"./index-bd7a5fe7.js";const g=n.form`
     line-height: 26px;
     color: #eaeaea;
   }
-`,u=n.button`
+`,h=n.button`
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -47,7 +47,7 @@ import{n,N as c,u as d,j as e,s as x}from"./index-bd7a5fe7.js";const g=n.form`
   font-size: 17px;
   line-height: 26px;
   color: #ffffff;
-`,h=n.p`
+`,u=n.p`
   font-weight: 400;
   font-size: 17px;
   line-height: 26px;
@@ -62,7 +62,7 @@ import{n,N as c,u as d,j as e,s as x}from"./index-bd7a5fe7.js";const g=n.form`
   display: flex;
   align-items: flex-end;
   color: #000000;
-`;function b(){const a=d(),r=o=>{o.preventDefault();const t=o.currentTarget,s=t.elements.name.value,l=t.elements.email.value,p=t.elements.password.value;a(x({name:s,email:l,password:p})),t.reset()};return e.jsxs(g,{onSubmit:r,children:[e.jsx(m,{children:"Sign Up"}),e.jsx(i,{label:"login",type:"text",name:"name",placeholder:"enter your login"}),e.jsx(i,{label:"email",type:"email",name:"email",placeholder:"enter your email"}),e.jsx(i,{label:"password",type:"password",name:"password",placeholder:"enter your password"}),e.jsx(u,{type:"submit",children:"Sign Up"}),e.jsx(h,{children:"Already have an account?"}),e.jsx(f,{to:"/login",children:"Log in"})]})}const w=n.div`
+`;function b(){const a=d(),r=o=>{o.preventDefault();const t=o.currentTarget,s=t.elements.name.value,l=t.elements.email.value,p=t.elements.password.value;a(x({name:s,email:l,password:p})),t.reset()};return e.jsxs(g,{onSubmit:r,children:[e.jsx(m,{children:"Sign Up"}),e.jsx(i,{label:"login",type:"text",name:"name",placeholder:"enter your login"}),e.jsx(i,{label:"email",type:"email",name:"email",placeholder:"enter your email"}),e.jsx(i,{label:"password",type:"password",name:"password",placeholder:"enter your password"}),e.jsx(h,{type:"submit",children:"Sign Up"}),e.jsx(u,{children:"Already have an account?"}),e.jsx(f,{to:"/login",children:"Log in"})]})}const w=n.div`
   width: 768px;
   margin-left: auto;
   margin-right: auto;
