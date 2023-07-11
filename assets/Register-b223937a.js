@@ -1,4 +1,4 @@
-import{n as t,N as d,b as x,j as e,s as c}from"./index-a95cf497.js";const g=t.form`
+import{n as t,N as d,b as x,j as e,s as c}from"./index-e2edb200.js";const g=t.form`
   padding: 143px 0px;
   margin: 0px auto;
   display: flex;
@@ -74,7 +74,7 @@ import{n as t,N as d,b as x,j as e,s as c}from"./index-a95cf497.js";const g=t.fo
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("/src/assets/FormBg.jpg");
+  background-image: url("/public/assets/FormBg.jpg");
   background-size: cover;
   border-radius: 50px;
 
