@@ -1,4 +1,4 @@
-import{n as i,N as s,u as r,a as p,j as e,A as o}from"./index-cce3a887.js";const d=i.div`
+import{n as e,N as s,u as r,a as p,j as i,A as o}from"./index-e63d8b1e.js";const d=e.div`
   width: 100%;
   height: 100%;
   position: relative;
@@ -6,7 +6,7 @@ import{n as i,N as s,u as r,a as p,j as e,A as o}from"./index-cce3a887.js";const
   @media (min-width: 1280px) {
     justify-content: space-between;
   }
-`,x=i.div`
+`,x=e.div`
   width: 350px;
   height: 365px;
   top: 0;
@@ -32,12 +32,12 @@ import{n as i,N as s,u as r,a as p,j as e,A as o}from"./index-cce3a887.js";const
     height: 929px;
     border-radius: 50px 0px 0px 50px;
     background-color: #bcbff2;
-    background-image: url("./public/assets/mainIimg.png");
+    background-image: url("./public/mainIimg.png");
     background-size: 674px 661px;
     background-repeat: no-repeat;
     background-position: center center;
   }
-`,c=i.div`
+`,c=e.div`
   margin-top: 370px;
   margin-bottom: 20px;
   width: 620px;
@@ -53,7 +53,7 @@ import{n as i,N as s,u as r,a as p,j as e,A as o}from"./index-cce3a887.js";const
   @media (min-width: 1280px) {
     margin: 0;
   }
-`,l=i.p`
+`,l=e.p`
   font-weight: 600;
   margin: 0;
   font-size: 24px;
@@ -61,7 +61,7 @@ import{n as i,N as s,u as r,a as p,j as e,A as o}from"./index-cce3a887.js";const
   display: flex;
   align-items: flex-end;
   color: #ffffff;
-`,g=i.p`
+`,g=e.p`
   font-weight: 600;
   font-size: 40px;
   line-height: 43px;
@@ -70,7 +70,7 @@ import{n as i,N as s,u as r,a as p,j as e,A as o}from"./index-cce3a887.js";const
   letter-spacing: 0.01em;
   color: #ffffff;
   margin: 0;
-`,h=i.p`
+`,h=e.p`
   font-weight: 400;
   margin: 0;
   font-size: 17px;
@@ -78,7 +78,7 @@ import{n as i,N as s,u as r,a as p,j as e,A as o}from"./index-cce3a887.js";const
   display: flex;
   align-items: flex-end;
   color: #a6a6a6;
-`,a=i(s)`
+`,a=e(s)`
   @media (max-width: 767px) {
     position: absolute;
     top: 275px;
@@ -102,4 +102,4 @@ import{n as i,N as s,u as r,a as p,j as e,A as o}from"./index-cce3a887.js";const
   font-size: 17px;
   line-height: 26px;
   color: #000000;
-`;function f(){const{isMobile:t}=r(),{user:n}=p();return console.log(n),e.jsxs(c,{children:[e.jsx(l,{children:"All your contacts in one place"}),e.jsx(g,{children:"Call U - Keep all your contacts in a safe place and easily share them with your friends"}),e.jsx(h,{children:"A contact storage tool is a digital application designed to help users store, manage, and organize their contacts. With this tool, users can save their contacts' information, such as names, phone numbers, email addresses, and social media profiles, in a centralized location."}),n?e.jsxs(a,{to:"/contacts",children:["Get started ",t&&e.jsx(o,{size:24})]}):e.jsxs(a,{to:"/register",children:["Get started",t&&e.jsx(o,{size:24})]})]})}function u(){return e.jsxs(d,{children:[e.jsx(f,{}),e.jsx(x,{})]})}export{u as default};
+`;function f(){const{isMobile:t}=r(),{user:n}=p();return console.log(n),i.jsxs(c,{children:[i.jsx(l,{children:"All your contacts in one place"}),i.jsx(g,{children:"Call U - Keep all your contacts in a safe place and easily share them with your friends"}),i.jsx(h,{children:"A contact storage tool is a digital application designed to help users store, manage, and organize their contacts. With this tool, users can save their contacts' information, such as names, phone numbers, email addresses, and social media profiles, in a centralized location."}),n?i.jsxs(a,{to:"/contacts",children:["Get started ",t&&i.jsx(o,{size:24})]}):i.jsxs(a,{to:"/register",children:["Get started",t&&i.jsx(o,{size:24})]})]})}function u(){return i.jsxs(d,{children:[i.jsx(f,{}),i.jsx(x,{})]})}export{u as default};
